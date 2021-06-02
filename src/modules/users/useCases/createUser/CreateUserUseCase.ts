@@ -1,7 +1,7 @@
 import { hash } from "bcryptjs";
-import { User } from "modules/users/entities/User";
 import { inject, injectable } from "tsyringe";
 
+import { User } from "../../entities/User";
 import { IUsersRepository } from "../../repositories/IUsersRepository";
 import { CreateUserError } from "./CreateUserError";
 import { ICreateUserDTO } from "./ICreateUserDTO";
